@@ -1,6 +1,5 @@
 
 const VideoCard = ({info}) =>{
-    console.log(info);
  const {snippet, statistics} = info
     const {channeltitle, title, thumbnails} = snippet
     return(
@@ -18,3 +17,5 @@ const VideoCard = ({info}) =>{
 }
 
 export default VideoCard
+
+
